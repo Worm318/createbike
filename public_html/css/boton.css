@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+.punch{
+	 border: medium none;
+    color: Ivory;
+    cursor: pointer;
+    display: block;
+    font-family: 'Anton',sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    height: 31px;
+    position: relative;
+    right: 1px;
+    top: 1px;
+    width: 80px;
+}
+.punch:hover{
+	color:darcksalmon;
+}
+

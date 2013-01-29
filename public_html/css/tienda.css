@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tienda{
+	margin-left:126px;
+	width:800px;
+	color:black;
+}
+#tienda p{
+	margin:12px;
+	font-size:33px;
+}
+
+#comentario p{
+	font-size:14px;
+	width:208px;
+	float:right;
+}
+
+#form{
+	margin:auto;
+	
+}
+
+.leyenda{
+	float:right;
+	width:300px;
+	text-align:justify;
+	padding-bottom:14px;
+}
+
+#fail{
+	color:red;
+	margin:10px;
+	font-size:16px;
+}
+#bien{
+	color:green;
+	margin:10px;
+	font-size:20px;
+	font-weight:900;
+}
+
+#bicicletas_tienda{
+	height:930px;
+	width:1198px;
+}
+
+#datos{
+	width:533px;
+}
+
+#datos span{
+	width:69px;
+	padding:3px;
+	float:left;
+	margin-top:5px;
+}
+
+.input{
+	font-size:10px;
+	color:#f6af5b;
+	height:20px;
+	font-weight:900;
+	width:142px;
+	padding:3px;
+	margin:4px;
+	border:1px solid #e2e2e2;
+	
+}
+
+.bici_izq{
+	float:left;
+	width:554px;
+	margin-top:18px;
+	height:220px;
+	margin-right:29px;
+}
+.bici_izq img{
+	float:left;
+	margin-right:23px;
+}
+
+#enviar{
+	height: 50px;
+width: 200px;
+font-size: 30px;
+font-weight: bold;
+color: black;
+background: white;
+cursor: pointer;
+margin-left: 120px;
+border:1px solid gray;
+margin-top:44px;
+margin-left:464px;
+margin-bottom:30px;
+}
+
+/* botones */
+
+input[type="radio"]
+{ 
+    -webkit-appearance:none;
+}
+
+.bici_izq input[type="radio"]{
+	display:none;
+}
+
+input[type="radio"]+label
+{ 
+    background: url(switch.png) repeat-x; 
+    float: left;
+    display:Block;
+} 
+input[type="radio"]+label span
+{
+    display: block;
+    background: url(switch.png) no-repeat; 
+    display: block;
+    line-height:30px;
+}
+
+input[type="radio"]+label.working span
+{
+    background-position: left -90px; padding: 0 10px; 
+}
+
+input[type="radio"]+label.not_checked span
+{
+	
+    padding: 0 10px; 
+	background-position: right -180px;
+}
+
+input[type="radio"]:checked +label.not_checked span
+{
+	
+    padding: 0 10px; 
+	background-position: right -210px;
+}
+
+
+
+input[type="radio"]:checked+label
+{
+    background-position: left -60px;
+}
+
+input[type="radio"]:checked+label.working span
+{
+    background-position: left -150px;
+    color: white;
+}
+
+
+
+input[type="radio"]:checked+label.not_checked
+{
+    background-position: right -30px;
+    color: white;
+}​
+
+iframe.twitter-share-button.twitter-count-horizontal{
+	margin-left:5px;
+}

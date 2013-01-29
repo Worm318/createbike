@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+background: #000;
+font-family: 'PT Sans Narrow', arial, serif;
+font-size: 14px;
+color: #fff;
+}
+
+a {
+text-decoration: none;
+font-weight: normal;
+color: #fff;
+}
+
+hr {
+border: none;
+border-top: dashed 1px #fff;
+}
+
+form {
+margin: 0 auto;
+padding: 11px;
+border-radius: 20px;
+background: #fff;
+color: #000;
+font-size: 18px;
+font-weight: bold;
+}
+
+/* INDEX CONTRASEÑA */
+#pass form {
+width: 160px;
+height: 95px;
+}
+#pass table {
+padding-bottom: 10px;
+}
+#pass p {
+margin: 0px 0px 5px 5px;
+color: #000;
+font-size: 18px;
+font-weight: bold;
+}
+#pass input {
+margin: 0px 0px 5px 5px;
+}
+#pass a {
+margin-top: 20px;
+display: block;
+text-decoration: none;
+font-weight: normal;
+text-align: center;
+color: #fff;
+}
+#pass #error {
+display: block;
+margin: 0 auto;
+margin-top: 10px;
+width: 143px;
+color: red;
+}
+
+/* ADMINISTRACIÓN */
+#nav a{
+width: 100px;
+}
+#nav a{
+margin-right: 10px;
+}
+
+#submit {
+width: 423px;
+}
+#submit input{
+width: 223px;
+}
+#submit .button{
+width: 150px;
+display: block;
+margin: 0 auto;
+}
+#submit #inputPic,#submit .wrapperPic{
+width: 100%;
+color: #000;
+font-size: 12px;
+font-weight: normal
+}
+#submit #inputPic p{
+margin-bottom: 0px;
+}
+#submit #addPic, #submit #removePic{
+color: #000;
+cursor: pointer;
+font-size: 12px;
+}
+#submit hr{
+border-top: dashed 2px #fff;
+}
+
+
+.item {
+float: left;
+width: 442px;
+margin: 5px;
+padding: 11px;
+border-radius: 20px;
+background: #fff;
+color: #000;
+font-size: 18px;
+}
+.item h1{
+font-family: 'Anton', sans-serif;
+margin-bottom: 5px;
+}
+.item p{
+font-weight: normal;
+margin-bottom: 2px;
+width: inherit; !important
+}
+.item .link{
+float: left;
+}
+.item img{
+width: 150px;
+height: 150px;
+border-radius: 10px;
+margin-right: 10px;
+
+}
+
+.item a {
+font-weight: bold;
+font-size: 14px;
+color: #000;
+}
+
+.item .itemInfo {
+float: right;
+width: 282px;
+margin-top: -150px;
+}
+
+.item .itemInfo-video {
+float: right;
+width: 282px;
+}
+
+.item iframe {
+width: inherit; !important
+}
+
+.item ul {
+width: inherit; !important
+}
+.item li {
+float: left;
+font-weight: bold;
+}
+
+/* EDICION */
+.item #orden{
+width: 20px;
+}
+
+#edicionWrapper form{
+font-weight: normal;
+}
+#edicionWrapper{
+width: 919px; 
+margin: 0 auto;
+}
+#edicionWrapper .item{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+#edicionWrapper .thumbs li{
+float: left;
+display: block;
+width: 282px;
+border-bottom: dashed 2px #fff;
+background: #E0E0E0;
+}
+#edicionWrapper .thumbs textarea{
+float: left;
+width: 186px;
+/*height: 70px;*/
+resize: none;
+font-size: 14px;
+}
+#edicionWrapper .thumbs img{
+width: 80px;
+height: 80px;
+display: inline;
+float: left;
+}
+#edicionWrapper .thumbs form{
+padding: 0px;
+border: none;
+background: none;
+}
